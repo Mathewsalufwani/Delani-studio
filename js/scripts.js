@@ -31,3 +31,9 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  $("#shift3").click(function() {
+    $(".txt3").toggle();
+    $(".img3").toggle();
+  });
+});
