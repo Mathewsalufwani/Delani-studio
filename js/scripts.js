@@ -4,16 +4,22 @@ $(document).ready(function(){
 
 		var name = $("#contactName").val();
 		var email = $("#contactEmail").val();
-		var info = $("#textArea").val();
+    var info = $("#textArea").val();
+    
+    if(name === '' || email === '' || info === ''){
+    alert("You haven't entered any message");
+    event.preventDefault();
+    }
+    else{
+      $(".contactName").text(name);
+		  $(".contactEmail").text(email);
+		  $(".textArea").text(info);
 
-		$(".contactName").text(name);
-		$(".contactEmail").text(email);
-		$(".textArea").text(info);
-
-		$("#output").show();
-		alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
+		  $("#output").show();
+		  alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
 	
-		event.preventDefault();
+      event.preventDefault();
+    }
 	});
 });
 
