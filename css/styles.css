@@ -70,3 +70,54 @@
 .port{
 	text-align: center;
 }
+
+.footer{
+	background-image: url("assets/backgrounds/c_image.jpg");
+	
+}
+
+.footer h3{
+	padding: 30px;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.contact{
+	margin-left: 250px;
+}
+
+input::placeholder{
+	color: white;
+}
+
+.footer input{
+	background-color: transparent;
+	color: white;
+	padding: 3px;
+	margin-top: 25px;
+	margin-right: 200px;
+	width: 300px;
+}
+
+#textArea{
+	color: white;
+	padding-bottom: 200px;
+	width: 800px;
+}
+
+.submitBtn{
+	margin: 30px 0px 20px 0px;
+	padding: 10px;
+	background-color: transparent;
+	color: white;
+	transition: background-color 0.5s ease-out;
+}
+
+.submitBtn:hover{
+	margin: 30px 0px 20px 0px;
+	padding: 10px;
+  background-color: white;
+  color: black;
+	transition: all 0.5s ease-in;
+    }
