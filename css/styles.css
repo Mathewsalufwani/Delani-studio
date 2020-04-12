@@ -15,3 +15,13 @@
 	text-align: center;
 }
 
+.sectionTwo{
+	background: url("assets/backgrounds/s_image.jpg");
+	background-position: center;
+	text-align: center;
+  padding-top: 9%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
