@@ -7,7 +7,7 @@
   text-align: center;
   color: white;
   padding-top: 14%;
-}
+  padding-bottom: 2%;}
 
 .sectionOne{
 	padding: 30px;
@@ -19,9 +19,50 @@
 	background: url("assets/backgrounds/s_image.jpg");
 	background-position: center;
 	text-align: center;
-  padding-top: 9%;
-  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   padding-left: 10%;
   padding-right: 10%;
   color: white;
+}
+
+.sectionThree{
+	margin-bottom: 50px;
+	margin-left: 55px;
+}
+
+.sectionThree h1{
+	padding: 10px 0px 10px 0px;	
+	text-align: center;
+}
+
+.txt1{
+	display: none;
+	color: red;
+}
+
+.txt2{
+	display: none;
+	color: green;
+}
+
+.txt3{
+	display: none;
+	color: blue;
+}
+
+.sectionThree .col-md-4{
+	padding: 20px;
+	width: 100%;
+}
+
+.sectionThree .col-md-4 p{
+	padding: 10px;
+	margin: 10px;
+}
+
+.sectionThree .col-md-4{
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
 }
