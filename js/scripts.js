@@ -24,3 +24,10 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  $("#shift2").click(function() {
+    $(".txt2").toggle();
+    $(".img2").toggle();
+  });
+});
+
