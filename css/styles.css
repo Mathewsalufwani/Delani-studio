@@ -38,17 +38,14 @@
 
 .txt1{
 	display: none;
-	color: red;
 }
 
 .txt2{
 	display: none;
-	color: green;
 }
 
 .txt3{
 	display: none;
-	color: blue;
 }
 
 .sectionThree .col-md-4{
@@ -120,15 +117,6 @@ input::placeholder{
   background-color: white;
   color: black;
 	transition: all 0.5s ease-in;
-}
-
-#output{
-	text-align: center;
-	display: none;
-	background-color: black;
-	color: white;
-	padding: 5px;
-	margin: 0px 50px 0px 50px;
 }
 
 .socialLinks {
